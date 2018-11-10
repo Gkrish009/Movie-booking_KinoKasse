@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <title>KinoKasse</title>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="./js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body onload="imageArray()">
+    <nav class="navbar navbar-inverse navbar-fixed-top header">
+      <div class="container-fluid" style="margin: 0 50px;">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="">
+            <img
+              alt="KinoKasse.de"
+              src="./images/logo.svg"
+              style="height: 30px;"
+            />
+          </a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="./index.html" style="color: white">KinoKasse.de</a></li>
+          <li><a href="./movie.html" style="color: white">Movies</a></li>
+        </ul>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control header-search-box"
+                placeholder="Search..."
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section class="header_ext">
+      <div class="caro1 container">
+        <div
+          id="carousel-example-generic"
+          style="min-height:200px"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carousel-example-generic"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+          <div class="row">
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="col-md-6">
+                  <img
+                    src="./images/cover-des-schuh-des-manitu-2.jpeg"
+                    style="width: 100%;height:100%;"
+                  />
+                </div>
+                <div class="col-md-6" style="padding: 0 20px !important;">
+                  <h3>Synopsis</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam a consequat nibh. Praesent sodales enim facilisis
+                    accumsan rhoncus.Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Etiam a consequat nibh. Praesent sodales
+                    enim facilisis accumsan.Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Etiam a consequat nibh.
+                    Praesent sodales enim facilisis accumsan rhoncus.Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Etiam a
+                    consequat nibh. Praesent sodales enim facilisis accumsan.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam a consequat nibh. Praesent sodales enim facilisis
+                    accumsan rhoncus.Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Etiam a consequat nibh. Praesent sodales
+                    enim facilisis accumsan
+                  </p>
+                  <div class="button_holder">
+                    <button type="button" onclick="window.location.href = './movie.html'" class="btn btn-outline-primary">
+                      BOOK NOW
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-6">
+                  <img
+                    src="./images/cover-des-schuh-des-manitu-2.jpeg"
+                    style="width: 100%;height:100%;"
+                  />
+                </div>
+                <div class="col-md-6" style="padding: 0 20px !important;">
+                  <h3>Synopsis</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam a consequat nibh. Praesent sodales enim facilisis
+                    accumsan rhoncus.Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Etiam a consequat nibh. Praesent sodales
+                    enim facilisis accumsan.Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Etiam a consequat nibh.
+                    Praesent sodales enim facilisis accumsan rhoncus.Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Etiam a
+                    consequat nibh. Praesent sodales enim facilisis accumsan.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam a consequat nibh. Praesent sodales enim facilisis
+                    accumsan rhoncus.Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Etiam a consequat nibh. Praesent sodales
+                    enim facilisis accumsan
+                  </p>
+                  <div class="button_holder">
+                    <button type="button" onclick="window.location.href = './movie.html'" class="btn btn-outline-primary">
+                      BOOK NOW
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-6">
+                  <img
+                    src="./images/cover-des-schuh-des-manitu-2.jpeg"
+                    style="width: 100%;height:100%;"
+                  />
+                </div>
+                <div class="col-md-6" style="padding: 0 20px !important;">
+                  <h3>Synopsis</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam a consequat nibh. Praesent sodales enim facilisis
+                    accumsan rhoncus.Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Etiam a consequat nibh. Praesent sodales
+                    enim facilisis accumsan.Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Etiam a consequat nibh.
+                    Praesent sodales enim facilisis accumsan rhoncus.Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Etiam a
+                    consequat nibh. Praesent sodales enim facilisis accumsan.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Etiam a consequat nibh. Praesent sodales enim facilisis
+                    accumsan rhoncus.Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Etiam a consequat nibh. Praesent sodales
+                    enim facilisis accumsan
+                  </p>
+                  <div class="button_holder">
+                    <button type="button" onclick="window.location.href = './movie.html'" class="btn btn-outline-primary">
+                      BOOK NOW
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            class="left carousel-control"
+            href="#carousel-example-generic"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a
+            class="right carousel-control"
+            href="#carousel-example-generic"
+            role="button"
+            data-slide="next"
+          >
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container" style="padding: 0;">
+      <h1 style="margin-bottom: 20px;">Movies</h1>
+      <div id="movieList" class="movie-list-container"></div>
+    </div>
+
+    <div class="footer">
+      <div class="wrapper_footer">
+        <hr style="border-bottom: 3px solid grey;" />
+        <a href="About.html" class="foo1"><strong>About</strong></a>
+        <a href="terms.html" class="foo"><strong>Terms</strong></a>
+        <a href="findus.html" class="foo"><strong>Find us</strong></a>
+        <a href="contact.html" class="foo"><strong>Contact Us</strong></a>
+      </div>
+    </div>
+  </body>
+</html>

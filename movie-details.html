@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <title>KinoKasse</title>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="./js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body onload="loadActorImages()">
+    <nav class="navbar navbar-inverse navbar-fixed-top header">
+      <div class="container-fluid" style="margin: 0 50px;">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="">
+            <img
+              alt="KinoKasse.de"
+              src="./images/logo.svg"
+              style="height: 30px;"
+            />
+          </a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="./index.html" style="color: white">KinoKasse.de</a></li>
+          <li><a href="./movie.html" style="color: white">Movies</a></li>
+        </ul>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control header-search-box"
+                placeholder="Search..."
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section class="header_ext">
+      <div class="caro1 container">
+        <div
+          id="carousel-example-generic"
+          style="min-height:200px"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carousel-example-generic"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          </ol>
+          <div class="row">
+            <div class="carousel-inner">
+              <div class="item active">
+                <img
+                  src="./images/cover-der-schuh-des-manitu.jpg"
+                  style="width: 100%;height:320px;"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="./images/cover-des-schuh-des-manitu-3.jpg"
+                  style="width: 100%;height:320px;"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="./images/cover-des-schuh-des-manitu-4.jpg"
+                  style="width: 100%;height:320px;"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="./images/cover-des-schuh-des-manitu-2.jpeg"
+                  style="width: 100%;height:320px;"
+                />
+              </div>
+            </div>
+          </div>
+
+          <a
+            class="left carousel-control"
+            href="#carousel-example-generic"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a
+            class="right carousel-control"
+            href="#carousel-example-generic"
+            role="button"
+            data-slide="next"
+          >
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container" style="padding: 0;">
+      <h1 style="margin-bottom: 20px;">Der schuh des Manitu</h1>
+      <div class="row" style="margin-bottom: 40px;">
+        <div class="col-md-2">
+          <img
+            src="./images/poster-der-schuh-des-manitu.jpg"
+            alt="Movie Poster"
+            style="width: 200px;"
+          />
+        </div>
+        <div class="col-md-10" style="padding-left: 35px;">
+          <h3>Synopsis</h3>
+          <p style="font-size: 20px;">
+            Abahachi, chief of the Apache, and his blood brother Ranger are an
+            inseparable pair since Ranger saved Abahachi from a speeding train
+            at an unguarded railroad crossing. When they aim to buy a pub with
+            the monetary help of Shoshone chief Stinking Lizard through supposed
+            Wyoming real estate agent Santa Maria, the deal as well as the pub,
+            which turns out to be just a prop-up facade, collapse. Santa Maria
+            kills Stinking Lizard's son, who was supposed to deliver the loan.
+            Stinking Lizard believes Santa Maria when he claims it was Abahachi
+            and Ranger who killed the chief's son and upon their return to the
+            Shoshone tribe, the two find themselves unjustly charged with
+            murder.
+          </p>
+        </div>
+      </div>
+      <div style="display: flex; font-size: 18px;">
+        <h4 style="width: 100px; margin: 3px 0 40px;">Genre:</h4>
+        Comedy
+      </div>
+      <div style="display: flex; font-size: 18px;">
+        <h4 style="width: 100px; margin: 3px 0 40px;">Duration:</h4>
+        82 minutes
+      </div>
+      <div style="display: flex; font-size: 18px;">
+        <h4 style="width: 100px; margin: 3px 0 40px;">Country:</h4>
+        Germany
+      </div>
+      <div style="display: flex; font-size: 18px;">
+        <h4 style="width: 100px; margin: 3px 0 40px;">Date:</h4>
+        13/07/2001
+      </div>
+      <div style="display: flex; font-size: 18px;">
+        <h4 style="width: 100px; margin: 3px 0 40px;">Actors:</h4>
+        <div id="actors-list">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="wrapper_footer">
+        <hr style="border-bottom: 3px solid grey;" />
+        <a href="About.html" class="foo1"><strong>About</strong></a>
+        <a href="terms.html" class="foo"><strong>Terms</strong></a>
+        <a href="findus.html" class="foo"><strong>Find us</strong></a>
+        <a href="contact.html" class="foo"><strong>Contact Us</strong></a>
+      </div>
+    </div>
+  </body>
+</html>

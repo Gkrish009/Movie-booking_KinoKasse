@@ -1,0 +1,276 @@
+* {box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+}
+
+.header-search-box {
+  width: 350px !important;
+  border-radius: 20px !important;
+}
+
+.col-md-6 {
+  padding: 0 !important;
+}
+
+.wrapper{
+  margin: 0 50px 0 40px;
+}
+
+.header {
+  overflow: hidden;
+  background-image: linear-gradient(to right, #2E3192, #5B5FC4, #1BFFFF);
+  box-shadow:0 3px linear-gradient (to right,RGB(20,27,86),#1BFFFF)	;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 15px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a.Movie{
+  font-size:25px;
+  padding-top: 16px;
+}
+
+/* .search_icon{
+  float: right;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+.search{
+  background-color: black;
+  padding: 10px;
+  width: 102px;
+  border: none;
+  font-size: 16px;
+  color: white;
+} */
+
+/* .search_box{
+  border: 1px;
+  padding: 10px;
+  width: 200px;
+  font-size: 16px;
+} */
+
+
+.header a:hover {
+  background-color: #1BFFFF;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.header_ext{
+  padding: 50px 0;
+  background-color:#2E3192;
+}
+
+.movie-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-item {
+  border: solid 10px #2E3192 ;
+  height: 400px;
+  width: 300px;
+  margin-bottom: 20px;
+  transition: all .2s;
+}
+
+.actor-tile {
+  height: 280px;
+  width: 190px;
+  margin-right: 20px;
+}
+
+.flex-item:hover {
+  border: solid 10px #1BFFFF ;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.wrapper_contact{
+  margin: 100px 600px 100px 600px;
+}
+
+.wrapper_about{
+  margin: 100px 250px 100px 250px;
+  text-align: left;
+}
+
+.movie-wrapper{
+  margin: 50px 200px 50px 200px;
+  padding: 100px;
+
+}
+
+.footer{
+  width: 100%;
+  font-size: 18px;
+}
+
+.wrapper_footer{
+  margin: 0 50px 20px;
+}
+
+.mySlides{
+  width: 80%;
+  position: relative;
+}
+
+.foo{
+  margin-right: 30px;
+  color: #2E3192;
+
+}
+
+.foo1{
+  margin-left: 30px;
+  color: #2E3192;
+  margin-right: 30px;
+}
+
+.round {
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 15px;
+  border: 1px #fff solid;
+  padding: 5px 5px 5px 5px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  z-index: 5;
+}
+
+.corner {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  height: 20px;
+  width: 60px;
+  z-index: 10;
+  /* border-radius: 10px; */
+  border: none;
+  /* background: #000; Set the bg image here. with "no-repeat" */
+}
+input{
+  border: none;
+  width: 250px;
+}
+.search_inner {
+  display: flex;
+  top: 15px;
+  flex-direction: row;
+  margin-right: 3px;
+  margin-right: 50px;
+}
+
+.search_inner:last-child{
+margin-left: auto;
+}
+.search {
+  position: relative;
+  width: 350px;
+  height: 30px;
+}
+
+.searchright{
+  float:right;
+}
+
+.img_holder img {
+    max-width: 100%;
+    height: auto;
+    margin: -15px;
+}
+
+.caro1{
+  background-color: white;
+}
+.carousel-control{
+  color: #2E3192 !important;
+}
+.carousel-control.right {
+  background-image: none !important;
+  opacity: 0;
+
+}
+
+.carousel-control.left {
+  background-image: none !important;
+  opacity: 0;
+
+}
+
+.img_holder {
+    width: 550px;
+    min-height: 200px;
+    max-height: auto;
+    float: left;
+
+}
+.button_holder{
+  margin-top: 30px;
+  float : left;
+}
+
+.carousel_text_bg{
+  background-color: white;
+}
+.btn {
+  color: white;
+  background-image: linear-gradient(to right, #2E3192, #5B5FC4, #1BFFFF) !important;
+  margin: 0 20px 20px 0 !important;
+}
+
+
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+
+}

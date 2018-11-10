@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/44/PlayCircle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop-Flinto" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.959999979">
+        <g id="Movie" transform="translate(-618.000000, -178.000000)">
+            <g id="Cover" transform="translate(0.000000, 40.000000)">
+                <g id="Video-1" transform="translate(192.000000, 32.000000)">
+                    <g id="Icons/44/PlayCircle" transform="translate(426.000000, 106.000000)">
+                        <path d="M22,0 C9.84677419,0 0,9.84677419 0,22 C0,34.1532258 9.84677419,44 22,44 C34.1532258,44 44,34.1532258 44,22 C44,9.84677419 34.1532258,0 22,0 Z" id="Mask" fill="#F46036"></path>
+                        <path d="M22,0 C9.84677419,0 0,9.84677419 0,22 C0,34.1532258 9.84677419,44 22,44 C34.1532258,44 44,34.1532258 44,22 C44,9.84677419 34.1532258,0 22,0 Z M32.2637097,24.1290323 L16.6508065,33.0887097 C15.2491935,33.8693548 13.483871,32.8669355 13.483871,31.2258065 L13.483871,12.7741935 C13.483871,11.1419355 15.2403226,10.1306452 16.6508065,10.9112903 L32.2637097,20.4032258 C33.7185484,21.2193548 33.7185484,23.3217742 32.2637097,24.1290323 Z" id="Mask" fill="#F8F8F8"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
