@@ -9,12 +9,12 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     />
-    <script src="./js/main.js"></script>
+    <script src="./js/seats.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
 
-  <body>
+  <body onload="renderSeats()">
     <nav class="navbar navbar-inverse navbar-fixed-top header">
       <div class="container-fluid" style="margin: 0 50px;">
         <div class="navbar-header">
@@ -55,19 +55,28 @@
       </div>
     </nav>
 
-    <div class="container" style="padding: 100px;">
+    <div class="container" style="padding-top: 40px;">
       <h3 style="text-align: center;">Der schuh des Manitu</h3>
       <h4 style="text-align: center;">Choose your seat</h4>
-      <img src="./images/seats.png" style="width:100%;height:400px; margin-top:50px" />
+      <h6 style="text-align: center;">Screen</h6>
+      <div id="seats" style="margin:48px 0;"></div>
+      <!--
+        <img src="./images/seats.png" style="width:100%;height:400px; margin-top:50px" />
+      -->
     </div>
 
     <div class="footer">
       <div class="wrapper_footer">
         <hr style="border-bottom: 3px solid grey;" />
         <span href="About.html" class="foo1">
-          <strong>Price: </strong>14,00€
+          <strong>Price: </strong><span id="price"></span>,00€
         </span>
-        <button type="button" class="btn btn-outline-primary" style="float:right;" onclick="window.location.href = './pay.html'">
+        <button
+          type="button"
+          class="btn btn-outline-primary"
+          style="float:right;"
+          onclick="goToPay()"
+        >
           PAY & BOOK
         </button>
       </div>
